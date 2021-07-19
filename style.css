@@ -1,0 +1,45 @@
+#banner-slide img {max-width: 100%;}
+
+#vid-binggo-leader{margin-top: 5rem;}
+#vid-binggo-leader .video iframe{margin-top: 3rem;max-width: 100%;width: 100%;height: 23rem;}
+#vid-binggo-leader .text .title img{max-width: 100%;}
+#vid-binggo-leader .text .content {margin-top: 3rem;}
+#vid-binggo-leader .text .content p{text-align: justify;}
+#vid-binggo-leader .text{padding-left: 3rem;}
+#vid-binggo-leader .text .title{padding-left: 2rem;}
+
+#courses{background-image: url('images/courses/bg.png');background-repeat: no-repeat;background-size: auto;}
+
+#chart-courses{margin-top: 8rem;}
+#chart-courses .title-main {position: absolute;margin-left: 3rem;}
+#chart-courses .title-main h2{color: #e71c24; font-size: 50px;font-weight: bold;}
+#chart-courses .title-main span{display: block;font-size: 22px;}
+#chart-courses .chart{border-bottom: 7px solid #e71c24;display: flex;padding-top: 38px;}
+#chart-courses .chart .content{display: flex;justify-content: center;padding-left: 5.5rem;align-items: flex-end;}
+#chart-courses .chart .column{width: 14.6rem;border-top-left-radius: 25px;border-top-right-radius: 25px;padding-left: 2px;padding-right: 2px;}
+#chart-courses .chart {height: max-content;text-align: center; }
+#chart-courses .chart .column{background-color: #f0c14b;height: max-content;}
+#chart-courses .chart .column .title {margin-top: 1rem;}
+#chart-courses .chart .column .icon {margin-top: 1rem;}
+#chart-courses .chart .column .describe{margin-top: 1rem;}
+#chart-courses .chart .column img{max-width: 100%;}
+#chart-courses .chart .column .describe p{color: white;}
+#chart-courses .chart .column .arrow{font-weight: bold;}
+#chart-courses .chart .content .two{background-color: #b5d56a;height: max-content;}
+#chart-courses .chart .content .two .arrow{margin-bottom: 7rem;}
+#chart-courses .chart .content .three{background-color: #ea7065;height: max-content}
+#chart-courses .chart .content .three .arrow{margin-bottom: 10rem;}
+#chart-courses .chart .content .four{background-color: #84bed6;height: max-content}
+#chart-courses .chart .content .four .arrow{margin-bottom: 14rem;}
+#chart-courses .chart .content .img-person-one{max-width: 100%;position: absolute;margin-left: -13rem;margin-top: 9rem;}
+#chart-courses .chart .content .img-person-two{max-width: 100%;position: absolute;margin-top: -10rem;padding-left: 1rem;}
+#chart-courses .chart .content .img-person-three{position: absolute;margin-top: 17.5rem;margin-left: 6rem;}
+#chart-courses .register{width: max-content;margin-top: 5rem;}
+#chart-courses .register button{background-color: #e71c24;border-radius: 25px;text-transform: uppercase;color: white;border: none;font-size: 22px;padding: 6px 20px 6px 43px;font-weight: bold;}
+#chart-courses .register span{border: 2px solid #b00001;border-radius: 25px;padding: 5px;background-color: #d10305;}
+#procedure{margin-top: 17rem;}
+#procedure .title h2{color: #e71c24;font-size: 50px;font-weight: bold;text-align: center;}
+#procedure .content{display: flex;align-items: flex-end;}
+#procedure .content .item{max-width: max-content}
+#procedure .content .item img{max-width: 100%;}
+#procedure .content .item .detail-item-one button{background-color: #7dcfe2;width: 100%;border-radius: 25px;border: none;color: white;}
