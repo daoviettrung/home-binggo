@@ -34,12 +34,38 @@
 #chart-courses .chart .content .img-person-one{max-width: 100%;position: absolute;margin-left: -13rem;margin-top: 9rem;}
 #chart-courses .chart .content .img-person-two{max-width: 100%;position: absolute;margin-top: -10rem;padding-left: 1rem;}
 #chart-courses .chart .content .img-person-three{position: absolute;margin-top: 17.5rem;margin-left: 6rem;}
-#chart-courses .register{width: max-content;margin-top: 5rem;}
+#chart-courses .register{margin-top: 5rem;text-align: center;}
 #chart-courses .register button{background-color: #e71c24;border-radius: 25px;text-transform: uppercase;color: white;border: none;font-size: 22px;padding: 6px 20px 6px 43px;font-weight: bold;}
 #chart-courses .register span{border: 2px solid #b00001;border-radius: 25px;padding: 5px;background-color: #d10305;}
 #procedure{margin-top: 17rem;}
 #procedure .title h2{color: #e71c24;font-size: 50px;font-weight: bold;text-align: center;}
 #procedure .content{display: flex;align-items: flex-end;}
-#procedure .content .item{max-width: max-content}
+#procedure .content .item{max-width: max-content;margin-left: 3rem;}
 #procedure .content .item img{max-width: 100%;}
 #procedure .content .item .detail-item-one button{background-color: #7dcfe2;width: 100%;border-radius: 25px;border: none;color: white;}
+#procedure .content .item .detail-item-two button{background-color: #b5d56a;width: 100%;border-radius: 25px;border: none;color: white;}
+#procedure .content .item .detail-item-three button{background-color: #ea7065;width: 100%;border-radius: 25px;border: none;color: white;}
+#procedure .register{margin-top: 5rem;text-align: center;}
+#procedure .register button{background-color: #e71c24;border-radius: 25px;text-transform: uppercase;color: white;border: none;font-size: 22px;padding: 6px 20px 6px 43px;font-weight: bold;}
+#procedure .register span{border: 2px solid #b00001;border-radius: 25px;padding: 5px;background-color: #d10305;margin-left: 10px;}
+#lecturers{margin-top: 15rem;}
+#lecturers .title h2{color: #e71c24;font-size: 50px;font-weight: bold;text-align: center;}
+#lecturers .content{margin-top: 8rem;}
+#lecturers .content .item{margin-left: 4rem;}
+#lecturers .content .item .image{background-color: #ea7065;width: 100%;height: max-content;height: 12rem;border-radius: 25px;border-radius: 13px;margin-left: 1rem;}
+#lecturers .content .item .image .person{height: inherit;width: 60%;padding-top: 1rem;margin-left: 4rem;}
+#lecturers .content .item .text h5{color: #bb332d;text-transform: uppercase;font-weight: bold;margin-top: 1rem;margin-left: 2rem;}
+#lecturers .content .item .text .intro-lecturer{margin-left: 3rem;}
+#lecturers .content .item .text .intro-lecturer::before{content: "";width: 5px;height: 5px;border-radius: 25px;background-color: #bb332d;position: absolute;margin-left: -16px;margin-top: 8px;}
+#lecturers .content .item .text .descrip-lecturerred{margin-left: 2rem;text-align: justify;margin-left: 2rem;}
+#lecturers .content .item .detail{margin-top: 1rem;text-align: center;}
+#lecturers .content .item .detail button{background-color: #bc342e;border-radius: 25px;text-transform: uppercase;color: white;border: none;font-size: 13px;padding: 6px 4px 6px 4px;font-weight: bold;}
+#lecturers .content .item .detail span{margin-left: 10px;}
+#lecturers .content .item .bg-item{max-width: 100%;height: max-content;position: absolute;}
+#lecturers .content .item .content-item{margin-left: 2rem;padding-top: 2rem;}
+#lecturers .owl-item{width: 350px !important;}
+#lecturers .content .owl-carousel .owl-next{font-size: 700%;margin-left: 74rem;margin-top: -24rem;position: absolute;color: #5e413d;}
+#lecturers .content .owl-carousel .owl-prev {font-size: 700%;margin-top: -24rem;position: absolute;color: #5e413d;margin-left: -3rem;}
+#lecturers .register{margin-top: 5rem;text-align: center;}
+#lecturers .register button{background-color: #e71c24;border-radius: 25px;text-transform: uppercase;color: white;border: none;font-size: 22px;padding: 6px 20px 6px 43px;font-weight: bold;}
+#lecturers .register span{border: 2px solid #b00001;border-radius: 25px;padding: 5px;background-color: #d10305;margin-left: 10px;}
