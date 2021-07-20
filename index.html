@@ -15,7 +15,16 @@
     <!-- banner slide (cho can thay du lieu vao) -->
     <div id="banner-slide">
         <div class="container-fluid">
-            <img src="images/banner-slide/bg.png">
+            <div class="banner-slide owl-carousel owl-theme">
+                <div class="item">
+                    <img src="images/banner-slide/bg.png">
+                </div>
+                <div class="item">
+                    <img src="images/banner-slide/bg.png">
+                </div>
+               
+            </div>
+            
         </div>
     </div>
     <!-- end banner slide -->
@@ -180,7 +189,7 @@
                 </div>
                 <div class="content">
                     <div class="row">
-                        <div id="owl-carousel" class="owl-carousel owl-theme">
+                        <div id="owl-carousel" class="lecturers owl-carousel owl-theme">
                             <div class="item">
                                 <img class="bg-item" src="images/lecturers/item-bg.png">
                                 <div class="content-item">  
@@ -278,12 +287,76 @@
                 </div>
                 <div class="register"> <button>đăng ký ngay<span>>></span></button></div>
             </div>
-
-
         </div>
 
     </div>
     <!-- end courses -->
+
+    <div id="face-student">
+       <div class="container">
+        <div class="title">
+            <img src="images/face-student/1-28.png">
+            <div class="title-text">
+                Gương mặt học viên</div>
+        </div>
+        <div class="content">    
+            <div class="slide-student">
+                <div class="row">
+                    <div class="face-student owl-carousel owl-theme">
+                        <div class="item">
+                           <div class="image">
+                               <img src="images/face-student/1-33.png">
+                           </div>
+                           <p class="name-student">tên học viên</p>
+                           <p>Học viên BingGo Leaders</p>
+                        </div>
+                        <div class="item">
+                            <div class="image">
+                                <img src="images/face-student/1-33.png">
+                            </div>
+                            <p class="name-student">tên học viên</p>
+                            <p>Học viên BingGo Leaders</p>
+                         </div>
+                         <div class="item">
+                            <div class="image">
+                                <img src="images/face-student/1-33.png">
+                            </div>
+                            <p class="name-student">tên học viên</p>
+                            <p>Học viên BingGo Leaders</p>
+                         </div>
+                         <div class="item">
+                            <div class="image">
+                                <img src="images/face-student/1-33.png">
+                            </div>
+                            <p class="name-student">tên học viên</p>
+                            <p>Học viên BingGo Leaders</p>
+                         </div>
+                         <div class="item">
+                            <div class="image">
+                                <img src="images/face-student/1-33.png">
+                            </div>
+                            <p class="name-student">tên học viên</p>
+                            <p>Học viên BingGo Leaders</p>
+                         </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text">
+                <div class="arrow"></div>
+                <p>“Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
+                    dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
+                    lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat,augue duis dolore te feugait nulla facilisi.”</p>
+            </div>
+        </div>
+        <div class="register"><button>đăng ký ngay<span>>></span></button>
+            <img src="images/face-student/1-34.png">
+        </div>
+       </div>
+    </div>
+
+    <div class="media">
+        
+    </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
@@ -291,7 +364,7 @@
 
     <script>
         $(document).ready(function () {
-            $('.owl-carousel').owlCarousel({
+            $('.lecturers ').owlCarousel({
                 loop: true,
                 margin: 10,
                 responsiveClass: true,
@@ -306,6 +379,52 @@
                     },
                     1000: {
                         items: 3,
+                        nav: true,
+                        loop: false
+                    }
+                }
+            })
+        });
+
+        $(document).ready(function () {
+            $('.banner-slide').owlCarousel({
+                loop: true,
+                margin: 10,
+                responsiveClass: true,
+                responsive: {
+                    0: {
+                        items: 1,
+                        nav: true
+                    },
+                    600: {
+                        items: 1,
+                        nav: false
+                    },
+                    1000: {
+                        items: 1,
+                        nav: true,
+                        loop: false
+                    }
+                }
+            })
+        });
+
+        $(document).ready(function () {
+            $('.face-student').owlCarousel({
+                loop: true,
+                margin: 10,
+                responsiveClass: true,
+                responsive: {
+                    0: {
+                        items: 1,
+                        nav: true
+                    },
+                    600: {
+                        items: 3,
+                        nav: false
+                    },
+                    1000: {
+                        items: 4,
                         nav: true,
                         loop: false
                     }
