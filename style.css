@@ -155,6 +155,8 @@
     #chart-courses .title-main h2,#procedure .title h2,#lecturers .title h2,#media .title h2{font-size: 40px;}
     #face-student .content .item{padding-right: 2rem;text-align: center;}
     #face-student .content .name-student{margin-left: 0rem;}
+    #face-student .content .image{margin: auto;}
+    #procedure .content .item{margin-left: 1rem;}
     
 
 
