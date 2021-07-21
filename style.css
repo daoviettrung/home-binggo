@@ -9,6 +9,9 @@
 #vid-binggo-leader .text .content p{text-align: justify;}
 #vid-binggo-leader .text{padding-left: 3rem;}
 #vid-binggo-leader .text .title{padding-left: 2rem;}
+#vid-binggo-leader .row{display: inherit;}
+#vid-binggo-leader .right{float: right;}
+
 
 #courses{background-image: url('images/courses/bg.png');background-repeat: no-repeat;background-size: auto;}
 
@@ -50,7 +53,7 @@
 #procedure .register{margin-top: 5rem;text-align: center;}
 #procedure .register button{background-color: #e71c24;border-radius: 25px;text-transform: uppercase;color: white;border: none;font-size: 22px;padding: 6px 20px 6px 43px;font-weight: bold;}
 #procedure .register span{border: 2px solid #b00001;border-radius: 25px;padding: 5px;background-color: #d10305;margin-left: 10px;}
-#lecturers{margin-top: 15rem;background-image: url('images/lecturers/Background.png');background-repeat: no-repeat;background-size: auto;}
+#lecturers{margin-top: 1rem;background-image: url('images/lecturers/Background.png');background-repeat: no-repeat;background-size: auto;}
 #lecturers .title{padding-top: 10rem;}
 #lecturers .title h2{color: #e71c24;font-size: 50px;font-weight: bold;text-align: center;}
 #lecturers .content{margin-top: 22rem;}
@@ -72,7 +75,7 @@
 #lecturers .register button{background-color: #e71c24;border-radius: 25px;text-transform: uppercase;color: white;border: none;font-size: 22px;padding: 6px 20px 6px 43px;font-weight: bold;}
 #lecturers .register span{border: 2px solid #b00001;border-radius: 25px;padding: 5px;background-color: #d10305;margin-left: 10px;}
 #lecturers .owl-dots{display: none;}
-#face-student{margin-top: 9rem;background-image: url('images/face-student/1-35.png');background-repeat: no-repeat;background-size: auto;}
+#face-student{margin-top: 3rem;background-image: url('images/face-student/1-35.png');background-repeat: no-repeat;background-size: auto;}
 #face-student .title{display: flex;justify-content: center;}
 #face-student .title .title-text{background-color: #e71c24;width: 53%;height: fit-content;color: white;text-align: center;font-size: 40px;border-radius: 25px;padding-left: 5rem;padding-right: 5rem;margin-top: 4rem;font-weight: bold;}
 #face-student .title img{position: absolute;margin-left: -20rem;}
@@ -89,8 +92,74 @@
 #face-student .register span{border: 2px solid #b00001;border-radius: 25px;padding: 5px;background-color: #d10305;margin-left: 10px;}
 #face-student .register img{max-width: 100%;;margin-left: 23rem;position: absolute;}
 
-#media{margin-top: 15rem;}
+#media{margin-top: 12rem;}
 #media .title{text-align: center;}
 #media .title h2{color: #e71c24;font-size: 50px;font-weight: bold;}
 #media .content{display: flex;margin-top: 4rem;text-align: center;}
-#media .content img{margin-left: 2rem;}
+#media .content img{margin-left: 2rem;max-width: 100%;text-align: center;}
+#media .content-two,#media .content-three {display: none;}
+
+
+@media only screen and (max-width: 1024px) {
+    #chart-courses .chart .column {width: 10rem;}
+    .owl-prev,.owl-next{display: none;}
+    #face-student .register img{margin-left: 0rem;}
+    #face-student .title .title-text{width: 63%;}
+    #media .content{display: none;}
+    #media .content-two{display: block;}
+    #media .content-two div{max-width: 100%;display: flex;margin-top: 5rem;text-align: center;}
+    #media .content-two img{margin-left: 7rem;}
+    #chart-courses .chart .content .img-person-three{margin-top: 20.5rem;}
+    #chart-courses .chart .content .img-person-one{margin-top: 10rem;}
+    #chart-courses .chart .content{padding-left: 8.5rem;}
+    #chart-courses .chart .content .img-person-two{width: 9%;margin-top: -6rem;}
+  }
+
+@media only screen and (max-width: 768px) {
+    #chart-courses .chart .content .img-person-one,#chart-courses .chart .content .img-person-two,#chart-courses .chart .content .img-person-three{display: none;}
+    #chart-courses .chart .content{padding-left: 1rem;}
+    #face-student .register img{width: 20%;}
+    #face-student .title img{width: 10rem;margin-left: -14rem;margin-top: 3rem;}
+    #media .content-two img{margin-left: 4rem;}
+    #chart-courses{margin-top: 16rem;}
+    #lecturers .content{margin-top: 10rem;}
+}
+
+@media only screen and (max-width: 480px) {
+    #vid-binggo-leader .text .title{padding-right: 2rem;padding-left: 0rem;}
+    #vid-binggo-leader .text .content{padding-right: 3rem;}
+    #vid-binggo-leader .video{padding-right: 3rem;padding-left: 3rem;}
+    #chart-courses .chart{border-bottom: none;padding-top: 6rem;}
+    #chart-courses .chart .content{display: block;padding-left: 0rem;}
+    #chart-courses .chart .column{width: auto;margin-left: 2rem;margin-right: 2rem;}
+    #chart-courses .chart .content .two .arrow ,#chart-courses .chart .content .three .arrow,#chart-courses .chart .content .four .arrow{margin-bottom: 0rem;}
+    #procedure .content{display: block;}
+    #procedure .content .item{margin-top: 3rem;}
+    #media .content-two img{margin-left: 1rem;}
+    #lecturers .content{margin-top: 2rem;}
+    #face-student .title .title-text{width: auto;}
+    #face-student .title img{width: 4rem;margin-left: -10rem;}
+    #media .content-two{display: none;}
+    #media .content-three{display: block;margin-top: 3rem;}
+    #media .content-three div{margin-top: 2rem;}
+    #media .content-three img{margin-left: 3rem;}
+    #face-student .content .text p {padding: 2rem 2rem 2rem;}
+    #face-student .register img {width: 11%;}
+    #lecturers{margin-top: 0rem;}
+    #vid-binggo-leader .video iframe{height: auto;}
+    #chart-courses,#procedure,#media,#face-student .content{margin-top: 5rem;}
+    #chart-courses .register{margin-top: 2rem;}
+    #chart-courses .chart .column{border-radius: 25px;}
+    #chart-courses .register button,#procedure .register button,#lecturers .register button{font-size: 14px;}
+    #face-student .title .title-text{font-size: 22px;}
+    #chart-courses .title-main h2,#procedure .title h2,#lecturers .title h2,#media .title h2{font-size: 40px;}
+    #face-student .content .item{padding-right: 2rem;text-align: center;}
+    #face-student .content .name-student{margin-left: 0rem;}
+    
+
+
+}
+
+@media only screen and (max-width: 380px) {
+
+}
