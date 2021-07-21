@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v11.0" nonce="J4kFkkaY"></script>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v11.0"
+        nonce="J4kFkkaY"></script>
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
@@ -144,7 +145,7 @@
                             <div class="describe">
                                 <p>Lorem ipsum dolor sit amet, cons ectetuer sed diam non nibh euismod
                                     tincidunt ut laoreet dolore volutpat.</p>
-                                <p  class="arrow">>></p>
+                                <p class="arrow">>></p>
                             </div>
 
                         </div>
@@ -373,7 +374,7 @@
                             </div>
                             <div class="item">
                                 <div class="image yellow">
-                                    <img  onclick="inforStudent(3)" src="images/face-student/1-33.png">
+                                    <img onclick="inforStudent(3)" src="images/face-student/1-33.png">
                                 </div>
                                 <p class="name-student">tên học viên</p>
                                 <p>Học viên BingGo Leaders</p>
@@ -402,7 +403,7 @@
                             </div>
                             <div class="item">
                                 <div class="image yellow">
-                                    <img  onclick="inforStudent(3)" src="images/face-student/1-33.png">
+                                    <img onclick="inforStudent(3)" src="images/face-student/1-33.png">
                                 </div>
                                 <p class="name-student">tên học viên</p>
                                 <p>Học viên BingGo Leaders</p>
@@ -487,15 +488,32 @@
 
         </div>
     </div>
-    <footer>
+    <footer id="footer">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
                     <div class="col-one">
-                        <div class="fb-page" data-href="https://www.facebook.com/Tienganhgiaotieplangmaster" data-small-header="false" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/Tienganhgiaotieplangmaster" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Tienganhgiaotieplangmaster">Tiếng Anh giao tiếp Langmaster</a></blockquote></div>
+                        <div class="fb-page link-fb" data-href="https://www.facebook.com/Tienganhgiaotieplangmaster">
+                            <blockquote cite="https://www.facebook.com/Tienganhgiaotieplangmaster"
+                                class="fb-xfbml-parse-ignore"><a
+                                    href="https://www.facebook.com/Tienganhgiaotieplangmaster">Tiếng Anh giao tiếp
+                                    Langmaster</a></blockquote>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
                     </div>
                 </div>
-                <div class="col-md-6"></div>
+                <div class="col-md-6">
+                    <div class="col-two">
+                        <p>Lorem ipsum dolor sit amet, consectetuer </p>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                            tincidunt
+                            ut laoreet dolore magna aliquam erat volutpat.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                            tincidunt
+                            ut laoreet dolore magna aliquam erat volutpat.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </footer>
@@ -561,7 +579,7 @@
                     },
                     1000: {
                         items: 4,
-                        slideBy:4,
+                        slideBy: 4,
                         nav: true,
                     }
                 }
@@ -570,29 +588,29 @@
 
         function inforStudent(number) {
             var arrow = document.getElementById('arrow');
-            if(number ==1){
+            if (number == 1) {
                 arrow.style.marginLeft = "4rem";
-                arrow.style.backgroundColor ="#b5d56a"
+                arrow.style.backgroundColor = "#b5d56a"
             }
-            if(number ==2){
+            if (number == 2) {
                 arrow.style.marginLeft = "23rem";
-                arrow.style.backgroundColor ="#ea7065"
+                arrow.style.backgroundColor = "#ea7065"
             }
-            else if(number ==3){
+            else if (number == 3) {
                 arrow.style.marginLeft = "40rem";
-                arrow.style.backgroundColor ="#f0c14b"
+                arrow.style.backgroundColor = "#f0c14b"
             }
-            else if(number ==4){
+            else if (number == 4) {
                 arrow.style.marginLeft = "59rem";
-                arrow.style.backgroundColor ="#84bed6"
+                arrow.style.backgroundColor = "#84bed6"
             }
 
 
         }
 
-        $(".mobile-menu").click(function(){
-        $(".main-menu").toggleClass("show-menu",5000)
-    })
+        $(".mobile-menu").click(function () {
+            $(".main-menu").toggleClass("show-menu", 5000)
+        })
     </script>
 </body>
 

@@ -248,12 +248,20 @@ header {
 #face-student .yellow{background-color: #f0c14b;}
 #face-student .blue{background-color: #84bed6;}
 
-#media{padding-top: 7rem;}
+#media{padding-top: 7rem;margin-bottom: 8rem;}
 #media .title{text-align: center;}
 #media .title h2{color: #e71c24;font-size: 50px;font-weight: bold;}
 #media .content{margin-top: 4rem;text-align: center;}
 #media .content img{margin-left: 2rem;max-width: 100%;text-align: center;padding-top: 2rem;}
 #media .content-two,#media .content-three {display: none;}
+
+#footer{background-color: #a21012;}
+#footer .col-one{padding-top: 4rem;}
+#footer .col-one p{color: white;}
+#footer .col-one .link-fb{margin-bottom: 3rem;}
+#footer .col-two{margin-top: 8rem;}
+#footer .col-two p{color: white;}
+
 
 
 @media only screen and (max-width: 1024px) {
@@ -340,7 +348,7 @@ header {
     #chart-courses .chart .content{display: block;padding-left: 0rem;}
     #chart-courses .chart .column{width: auto;margin-left: 2rem;margin-right: 2rem;}
     #chart-courses .chart .content .two .arrow ,#chart-courses .chart .content .three .arrow,#chart-courses .chart .content .four .arrow{margin-bottom: 0rem;}
-    #procedure .content{display: block;}
+    #procedure .content{display: block;padding-top: 0rem;}
     #procedure .content .item{margin-top: 3rem;}
     #media .content-two img{margin-left: 1rem;}
     #lecturers .content{margin-top: 2rem;}
@@ -354,7 +362,7 @@ header {
     #face-student .register img {width: 11%;}
     #lecturers{margin-top: 0rem;}
     #vid-binggo-leader .video iframe{height: auto;}
-    #chart-courses,#procedure,#media,#face-student .content{margin-top: 5rem;}
+    #chart-courses,#procedure,#media,#face-student .content{margin-top: 5rem;padding-top: 0rem;}
     #chart-courses .register{margin-top: 2rem;}
     #chart-courses .chart .column{border-radius: 25px;}
     #chart-courses .register button,#procedure .register button,#lecturers .register button{font-size: 14px;}
@@ -363,7 +371,9 @@ header {
     #face-student .content .item{padding-right: 2rem;text-align: center;}
     #face-student .content .name-student{margin-left: 0rem;}
     #face-student .content .image{margin: auto;}
-    #procedure .content .item{margin-left: 1rem;}
+    #footer .col-one{text-align: center;}
+    #footer .col-one p{text-align: left;}
+    #footer .col-two{margin-top: 2rem;}
     
 
 
