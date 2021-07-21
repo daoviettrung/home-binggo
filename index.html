@@ -7,11 +7,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v11.0" nonce="J4kFkkaY"></script>
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 
 <body>
+    <!-- header -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="mxh">
+                        <div class="facebook">
+                            <a href=""><i class="fab fa-facebook-f"></i></a>
+                        </div>
+                        <div class="youtube">
+                            <a href=""><i class="fab fa-youtube"></i></a>
+                        </div>
+                        <div class="google">
+                            <a href=""><i class="fab fa-google-plus-g"></i></a>
+                        </div>
+                        <div class="tiktok">
+                            <a href=""><i class="fab fa-tiktok"></i></a>
+                        </div>
+                        <div class="career">
+                            <a href=""><span>Tuyển dụng</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="menu">
+                    <div class="logo">
+                        <a href=""><img src="images/header/logo.png" alt="index"></a>
+                    </div>
+                    <nav class="responsive-menu">
+                        <div class="mobile-menu">
+                            <i class="fas fa-bars"></i>
+                        </div>
+                        <ul class="main-menu">
+                            <li><a href="">Giới Thiệu</a></li>
+                            <li><a href="">Các Khóa Học</a></li>
+                            <li><a href="">Giảng Viên</a></li>
+                            <li><a href="">Phương Pháp Giảng Dạy</a></li>
+                            <li><a href="">Sự Kiện</a></li>
+                            <li><a href="">Thư Viện</a></li>
+                            <li><a href="">Cảm nhận</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- end header -->
     <!-- banner slide (cho can thay du lieu vao) -->
     <div id="banner-slide">
         <div class="container-fluid">
@@ -91,7 +144,7 @@
                             <div class="describe">
                                 <p>Lorem ipsum dolor sit amet, cons ectetuer sed diam non nibh euismod
                                     tincidunt ut laoreet dolore volutpat.</p>
-                                <p class="arrow">>></p>
+                                <p  class="arrow">>></p>
                             </div>
 
                         </div>
@@ -220,7 +273,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="item">
+                        <div class="item-two">
                             <div class="content-item">
                                 <div class="image">
                                     <img class="person" src="images/lecturers/person.png">
@@ -242,7 +295,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="item">
+                        <div class="item-three">
                             <div class="content-item">
                                 <div class="image">
                                     <img class="person" src="images/lecturers/person.png">
@@ -305,45 +358,68 @@
                     <div class="row">
                         <div class="face-student owl-carousel owl-theme">
                             <div class="item">
-                                <div class="image">
-                                    <img src="images/face-student/1-33.png">
+                                <div class="image greens">
+                                    <img onclick="inforStudent(1)" src="images/face-student/1-33.png">
                                 </div>
                                 <p class="name-student">tên học viên</p>
                                 <p>Học viên BingGo Leaders</p>
                             </div>
                             <div class="item">
-                                <div class="image">
-                                    <img src="images/face-student/1-33.png">
+                                <div class="image orange">
+                                    <img onclick="inforStudent(2)" src="images/face-student/1-33.png">
                                 </div>
                                 <p class="name-student">tên học viên</p>
                                 <p>Học viên BingGo Leaders</p>
                             </div>
                             <div class="item">
-                                <div class="image">
-                                    <img src="images/face-student/1-33.png">
+                                <div class="image yellow">
+                                    <img  onclick="inforStudent(3)" src="images/face-student/1-33.png">
                                 </div>
                                 <p class="name-student">tên học viên</p>
                                 <p>Học viên BingGo Leaders</p>
                             </div>
                             <div class="item">
-                                <div class="image">
-                                    <img src="images/face-student/1-33.png">
+                                <div class="image blue">
+                                    <img onclick="inforStudent(4)" src="images/face-student/1-33.png">
+                                </div>
+                                <p class="name-student">tên học viên</p>
+                                <p>Học viên BingGo Leaders</p>
+                            </div>
+
+                            <div class="item">
+                                <div class="image greens">
+                                    <img onclick="inforStudent(1)" src="images/face-student/1-33.png">
                                 </div>
                                 <p class="name-student">tên học viên</p>
                                 <p>Học viên BingGo Leaders</p>
                             </div>
                             <div class="item">
-                                <div class="image">
-                                    <img src="images/face-student/1-33.png">
+                                <div class="image orange">
+                                    <img onclick="inforStudent(2)" src="images/face-student/1-33.png">
                                 </div>
                                 <p class="name-student">tên học viên</p>
                                 <p>Học viên BingGo Leaders</p>
                             </div>
+                            <div class="item">
+                                <div class="image yellow">
+                                    <img  onclick="inforStudent(3)" src="images/face-student/1-33.png">
+                                </div>
+                                <p class="name-student">tên học viên</p>
+                                <p>Học viên BingGo Leaders</p>
+                            </div>
+                            <div class="item">
+                                <div class="image blue">
+                                    <img onclick="inforStudent(4)" src="images/face-student/1-33.png">
+                                </div>
+                                <p class="name-student">tên học viên</p>
+                                <p>Học viên BingGo Leaders</p>
+                            </div>
+
                         </div>
                     </div>
                 </div>
                 <div class="text">
-                    <div class="arrow"></div>
+                    <div id="arrow" class="arrow"></div>
                     <p>“Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
                         tincidunt ut laoreet
                         dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
@@ -353,7 +429,6 @@
                 </div>
             </div>
             <div class="register"><button>đăng ký ngay<span>>></span></button>
-                <img src="images/face-student/1-34.png">
             </div>
         </div>
     </div>
@@ -393,7 +468,7 @@
                 <div>
                     <img src="images/media/logo1-vtv.png">
                     <img src="images/media/logo2-hanoi.png">
-                   
+
                 </div>
                 <div>
                     <img src="images/media/logo3-kenh14.png">
@@ -412,6 +487,18 @@
 
         </div>
     </div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="col-one">
+                        <div class="fb-page" data-href="https://www.facebook.com/Tienganhgiaotieplangmaster" data-small-header="false" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/Tienganhgiaotieplangmaster" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Tienganhgiaotieplangmaster">Tiếng Anh giao tiếp Langmaster</a></blockquote></div>
+                    </div>
+                </div>
+                <div class="col-md-6"></div>
+            </div>
+        </div>
+    </footer>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
@@ -421,7 +508,7 @@
         $(document).ready(function () {
             $('.lecturers ').owlCarousel({
                 loop: true,
-                nav:true,
+                nav: true,
                 margin: 10,
                 responsiveClass: true,
                 responsive: {
@@ -474,11 +561,38 @@
                     },
                     1000: {
                         items: 4,
+                        slideBy:4,
                         nav: true,
                     }
                 }
             })
         });
+
+        function inforStudent(number) {
+            var arrow = document.getElementById('arrow');
+            if(number ==1){
+                arrow.style.marginLeft = "4rem";
+                arrow.style.backgroundColor ="#b5d56a"
+            }
+            if(number ==2){
+                arrow.style.marginLeft = "23rem";
+                arrow.style.backgroundColor ="#ea7065"
+            }
+            else if(number ==3){
+                arrow.style.marginLeft = "40rem";
+                arrow.style.backgroundColor ="#f0c14b"
+            }
+            else if(number ==4){
+                arrow.style.marginLeft = "59rem";
+                arrow.style.backgroundColor ="#84bed6"
+            }
+
+
+        }
+
+        $(".mobile-menu").click(function(){
+        $(".main-menu").toggleClass("show-menu",5000)
+    })
     </script>
 </body>
 
