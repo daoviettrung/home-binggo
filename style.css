@@ -285,7 +285,7 @@ header {
     #face-student .title .title-text{width: 63%;}
     #media .content{display: none;}
     #media .content-two{display: block;}
-    #media .content-two div{max-width: 100%;display: flex;margin-top: 5rem;text-align: center;}
+    #media .content-two div{max-width: 100%;display: flex;margin-top: 5rem;justify-content:center ;}
     #media .content-two img{margin-left: 7rem;}
     #chart-courses .chart .content .img-person-three{margin-top: 20.5rem;}
     #chart-courses .chart .content .img-person-one{margin-top: 10rem;}
@@ -356,7 +356,7 @@ header {
     #face-student .title img{width: 4rem;margin-left: -10rem;}
     #media .content-two{display: none;}
     #media .content-three{display: block;margin-top: 3rem;}
-    #media .content-three div{margin-top: 2rem;}
+    #media .content-three div{margin-top: 2rem;display: flex;justify-content: center;}
     #media .content-three img{margin-left: 3rem;}
     #face-student .content .text p {padding: 2rem 2rem 2rem;}
     #face-student .register img {width: 11%;}
